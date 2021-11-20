@@ -1,0 +1,345 @@
+html, body {
+    width: 100%;
+   
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: serif;
+    font-weight: 100;
+    background-color: rgb(37, 37, 37);
+    /* transform: scale(1, .95); */
+  }
+  /* ===================Head of Page======================== */
+  
+  
+  
+  .title {
+      text-align: center;
+      align-content: center;
+      font-size: 4vw;
+      width: 80%;
+      margin: auto;
+      font-weight: bold;
+      padding: 0 0 1% 1.2%;
+      letter-spacing: 11px;
+      transform: scale(1, .95);
+      /* font-family: ltc-bodoni-175, serif; */
+      font-style: italic;
+      font-weight: 400;
+      text-transform: uppercase;
+      background-image: linear-gradient(45deg, 
+      rgb(175, 105, 25),
+       rgb(194, 128, 52),
+        rgb(224, 167, 76), 
+      rgb(241, 207, 162),
+       rgb(224, 167, 76),
+       rgb(194, 128, 52),
+       rgb(175, 105, 25));
+      background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;  
+      color: transparent;
+      /* font-family: 'Shippori Mincho', serif; */
+      /* the css header link is only in the index page -- update all html pages to use google fonts */
+  
+      /* background-color: aqua; */
+  }
+
+
+  
+  
+
+
+
+  .subTitle {
+      text-align: center;
+      font-size: .9vw;
+      /* font-weight: lighter; */
+      /* padding: 3%; */
+      letter-spacing: 5px;
+      color: rgb(173, 173, 173);
+      transform: scale(1, .93);
+      margin-bottom: 4%;
+      /* font-family: ltc-bodoni-175, serif; */
+      font-family: serif;
+      /* font-style: normal; */
+      /* text-transform: lowercase; */
+  }
+  
+  
+  
+  
+  
+
+  
+    
+  /* ============================={ End Head of Page }================================ */
+
+
+
+
+
+
+
+
+
+  /* ==================================={ Index Page }================================ */
+
+  /* ==============={main links}================ */
+
+.listItems {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10% auto 0 auto;
+    /* background-color: red; */
+}
+
+.socialSymbol {
+    height: 70px;
+    /* position: center; */
+    margin: 0 auto;
+}
+
+.linkStyles {
+    margin: 5% auto 0 auto;
+}
+
+a{
+    color: rgb(109, 233, 233);
+}
+a:hover {
+    color: rgb(135, 168, 165);
+    text-decoration: none;
+}
+
+img {
+    /* height: 15%; */
+}
+/* ==============={news feed}================ */
+
+
+
+
+
+
+
+
+
+  /* ============================={ End of Index Page }================================ */
+  
+  
+
+  
+  
+  
+  
+  
+  /* =========================={ Footer }========================================== */
+  
+
+
+/* ==============={contactRow}================ */
+
+.contactRow {
+  text-align: center;
+  margin: 3% auto;
+  color: rgb(134, 86, 53);
+}
+.contactText {
+  /* text-align: center; */
+  color: rgb(161, 118, 88);
+  font-weight: bold;
+  text-align: center;
+}
+.contactTextBody {
+  /* text-align: center; */
+}
+
+/* ==============={rest of footer stuff}================ */
+
+  
+  .footerRowMaster {
+    margin: 5% auto 0 auto;
+    background-color: rgb(29, 29, 29);
+    
+  }
+  
+  .footerRow {
+    background-color: rgb(29, 29, 29);
+    /* height: 30vh; */
+    color: white;
+  }
+  
+  .footerLeftCol {
+    text-align: center;
+    align-content: center;
+    margin: 5% auto;
+    /* margin: auto; */
+    /* background-color: red; */
+    text-decoration: none;
+    
+  }
+  .footerMidCol {
+    text-align: center;
+    align-content: center;
+    margin: 5% auto;
+    /* padding: auto 20px auto 0px; */
+    /* margin: auto; */
+    /* background-color: rgb(225, 226, 159); */
+    text-decoration: none;
+  }
+  .footerRightCol {
+    text-align: center;
+    align-content: center;
+    margin: 5% auto;
+    /* margin: auto; */
+    /* background-color: rgb(0, 204, 255); */
+    text-decoration: none;
+  }
+  
+  .footerTitle {
+    font-weight: bold;
+    font-size: .9vw;
+  }
+  
+  .footerLinks {
+    text-decoration: none;
+    color: white;
+    font-size: .7vw;
+  }
+  .footerLinks:hover {
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+  }
+  .copyRow {
+    /* height: 7vh; */
+    background-color: rgb(29, 29, 29);
+    /* padding: 10% auto; */
+    margin: 5% auto;
+  }
+  .copyright {
+    margin: 0 auto;
+    padding: 10% auto;
+    /* margin: auto; */
+    
+    text-decoration: none;
+    text-align: center;
+    font-size: .7vw;
+    color: white;
+  }
+  
+  
+  
+  
+ /* =========================={ End of Footer }========================================== */ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ========================{ Media Queries }======================================= */
+  
+    /* PHONES */
+  
+    @media screen and (max-width: 992px) {
+    
+
+/* ==============={ header MQ }================ */
+
+  .title {
+      font-size: 6vw;
+  }
+  
+  .subTitle {
+    text-align: center;
+    font-size: 2.5vw;
+  }
+  .extraTitle {
+      font-size: 6vw;
+  }
+  
+  .extraSubtitle {
+    text-align: center;
+    font-size: 3vw;
+  }
+  
+  
+  
+  /* ==============={ list items MQ }================ */
+
+.listItems {
+  margin: 20% auto 0 auto;
+  /* padding: 0 2%; */
+  /* background-color: red; */
+}
+
+
+
+
+  /* ==============={ news feed MQ }================ */
+
+.newsFeed {
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+.notesBody {
+  margin: 3% 7%;
+}
+
+
+
+  /* ==============={ contact MQ }================ */
+
+  .contactRow {
+      margin: 7%;
+  }
+
+
+
+/* =============={ pre-footer }=================== */
+.video {
+  width: 90%;
+  align-content: center;
+  margin: auto;
+  
+}
+
+/* .preFooter {
+  margin: 0;
+} */
+
+
+  /* ==============={ footer MQ }================ */
+  
+  .footerRow {
+    /* height: 30vh; */
+  }
+  .copyRow {
+    /* height: 7vh; */
+  }
+  .footerTitle {
+    font-size: 3vw;
+  }
+  .footerLinks {
+    font-size: 2vw;
+    text-decoration: none;
+  }
+  .copyright {
+    font-size: 2.5vw;
+    margin: 5% auto 15% auto;
+    color: white;
+  }
+  
+  }
