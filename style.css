@@ -20,7 +20,7 @@ html, body {
       width: 80%;
       margin: auto;
       font-weight: bold;
-      padding: 0 0 1% 1.2%;
+      padding: 4% 0 1% 1.2%;
       letter-spacing: 11px;
       transform: scale(1, .95);
       /* font-family: ltc-bodoni-175, serif; */
@@ -55,7 +55,7 @@ html, body {
 
   .subTitle {
       text-align: center;
-      font-size: .9vw;
+      font-size: 1.2vw;
       /* font-weight: lighter; */
       /* padding: 3%; */
       letter-spacing: 5px;
@@ -70,7 +70,133 @@ html, body {
   
   
   
+  /* ================{ NAV BEGINS }================= */
+.nav {
+    text-align: center;
+    align-content: center;
+    font-size: 90%;
+    margin: 0 15%;
+    transform: scale(1, .9);
+   
+}
+
+.navSub {
+    transform: scale(1, .9);
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    font-family: serif;
+    font-style: normal;
+    }
+ .navSub:link {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+  }
   
+  .navSub:visited {
+    color: none;
+  }
+  
+  .navSub:hover {
+    color: rgb(190, 190, 190);
+    /* text-shadow: 1px 1px 8px rgba(200,200,200,10); */
+  }
+  
+  .navSub:active {
+    color: rgb(190, 190, 190);
+    
+  }
+
+  .navActivePage {
+      color: rgb(190, 190, 190);
+  }
+
+  
+  /* .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  } */
+
+  
+
+  /* ==========={ BS nav BS }=========== */
+  .navbar {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+  .bg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+  .navbar-light {
+      background-color: none;
+      text-align: center;
+    align-content: center;  
+  }
+  .navbar-expand-lg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+  .navbar-nav {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+  }
+.navbar-nav:hover {
+    color: rgb(190, 190, 190);
+}
+  .nav-item {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+  }
+
+  .nav-item:hover {
+    color: rgb(190, 190, 190);
+  }
+  .nav-link {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+  }
+  .navbar-toggler {
+    text-align: center;
+    align-content: center;
+  }
+  .navbar-toggler-icon {
+    text-align: center;
+    align-content: center;
+    
+  }
+/* ============================={ NAV END }================================ */
+
+/* ============================={ PAGE JUMP MENU BEGINS }================================ */
+
+
+.pageJumpMenu {
+    align-content: center;
+    margin: 2% auto;
+    text-align: center;
+    color: white;
+    
+}
+
+
+/* ============================={ PAGE JUMP MENU ENDS }================================ */
   
 
   
@@ -108,18 +234,45 @@ html, body {
 }
 
 a{
-    color: rgb(109, 233, 233);
+    color: rgb(161, 110, 15);
 }
 a:hover {
-    color: rgb(135, 168, 165);
+    color: rgb(226, 178, 88);
     text-decoration: none;
 }
 
 img {
     /* height: 15%; */
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2% auto;
 }
-/* ==============={news feed}================ */
 
+.buildRow {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2% auto;
+}
+.build0 {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2% auto;
+    width: 70%;
+}
+.build {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2% auto;
+    width: 100%;
+}
+
+.tester {
+    color: white;
+}
 
 
 
@@ -132,7 +285,31 @@ img {
   
   
 
+  /* ========================{ JS styling }======================================= */
+/* lightbox */
+
+#lightbox {
+    position: fixed;
+    z-index:1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+  }
   
+  #lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    background-color: black;
+    border: 20px solid white;
+  }
   
   
   
