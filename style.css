@@ -335,6 +335,19 @@ img {
   /* text-align: center; */
 }
 
+.venmo {
+
+}
+
+.venmo_img {
+    width: 20%;
+    border-radius: 20px;
+}
+.insta_img {
+    width: 5%;
+    
+}
+
 /* ==============={rest of footer stuff}================ */
 
   
