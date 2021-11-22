@@ -499,11 +499,13 @@ img {
 
 
 /* =============={ pre-footer }=================== */
-.video {
-  width: 90%;
-  align-content: center;
-  margin: auto;
-  
+.venmo_img {
+    width: 50%;
+    
+}
+.insta_img {
+    width: 20%;
+    
 }
 
 /* .preFooter {
